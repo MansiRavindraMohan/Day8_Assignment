@@ -10,8 +10,11 @@ namespace Day8_Assignment
     {
         static void Main(string[] args)
         {
-            MatchingString matchingString = new MatchingString();
-            matchingString.MethodString();
+            //MatchingString matchingString = new MatchingString();
+            //matchingString.MethodString();
+
+            SequenceMatching sequenceMatching = new SequenceMatching();
+            sequenceMatching.MethodSequence();
             Console.ReadLine();
         }
     }
